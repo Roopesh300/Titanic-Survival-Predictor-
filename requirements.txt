@@ -1,0 +1,23 @@
+# ─────────────────────────────────────────────────────────────
+#  Titanic Survival Predictor — Python Dependencies
+#  Install with:  pip install -r requirements.txt
+#
+#  Dataset: https://www.kaggle.com/datasets/arjunsinghgangwar/titanic-survival-prediction-dataset/data
+# ─────────────────────────────────────────────────────────────
+
+# Data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine learning
+scikit-learn>=1.3.0
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Frontend / UI (Python-native)
+gradio>=4.0.0
+
+# Pillow is needed by Gradio's image components
+Pillow>=10.0.0
